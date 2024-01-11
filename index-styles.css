@@ -1,0 +1,94 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #161618; /* Light gray background similar to macOS */
+}
+
+#mimir {
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffffd3;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  backdrop-filter: blur(5px);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #3333334a; /* Light gray navbar */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  border-radius: 10px;
+  color: #ffffffd3;
+  text-decoration: none;
+  padding: 0.75rem;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #1616188c; /* Hover state for navigation links */
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.info-section {
+  line-height: 1.5;
+  text-align: left;
+  color:#ffffffd3;
+  font-size: 30px;
+}
+
+.instructions {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffffd3;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #ffffffd3;
+}
+.card {
+  color: #ffffffd3;
+  padding: 2rem;
+  backdrop-filter: blur(5px);
+  background-color: #3333334a;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  background-color: #16161857;
+  backdrop-filter: blur(8px);
+  transition: 0.3s ease;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
