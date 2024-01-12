@@ -1,5 +1,3 @@
-{ निर्माण कार्य प्रगति पर है। }
-
 # Mimir
 A multi-purpose remote control utility to control your PC using another device such as a phone, or even another PC.
 
