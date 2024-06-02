@@ -16,4 +16,4 @@ A multi-purpose remote control utility to control your PC using another device s
 - Run `stop.bat` to stop the server when you're done.
 
 ### Demo Video-
-- Here's a demonstration of the usage- [Demo Video](https://www.youtube.com/ "Video")
+- Here's a demonstration of the usage- [Demo Video](https://youtu.be/jvd2k8i5Yt4 "Video")
